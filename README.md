@@ -19,6 +19,53 @@ Ce projet présente une analyse complète des données Airbnb réalisée avec Po
 - **PROJET_BI.pbix** - Fichier Power BI Desktop contenant le dashboard complet avec toutes les visualisations
 - **Dataset.zip** - Jeu de données Airbnb utilisé pour l'analyse
 
+## 📸 Captures d'Écran des Tableaux de Bord
+
+### Tableau de Bord Principal
+
+![Tableau de bord principal - Vue d'ensemble](images/dashboard-overview.png)
+
+*Vue d'ensemble du dashboard avec les métriques clés et visualisations principales*
+
+### Analyse par Région
+
+![Analyse géographique](images/dashboard-regions.png)
+
+*Visualisation des performances par région avec cartes interactives*
+
+### Analyse des Prix
+
+![Analyse des prix](images/dashboard-pricing.png)
+
+*Graphiques montrant les tendances de prix par type de propriété et région*
+
+### Analyse Temporelle
+
+![Tendances temporelles](images/dashboard-trends.png)
+
+*Évolution des métriques dans le temps avec analyses saisonnières*
+
+### Détails des Listings
+
+![Détails des listings](images/dashboard-listings.png)
+
+*Tableau détaillé des propriétés avec filtres avancés*
+
+### Métriques de Performance
+
+![KPIs et métriques](images/dashboard-kpis.png)
+
+*Indicateurs clés de performance (KPIs) et métriques importantes*
+
+---
+
+> **Note** : Pour ajouter vos propres captures d'écran :
+> 1. Créez un dossier `images/` à la racine du projet
+> 2. Exportez vos captures d'écran depuis Power BI Desktop (Format > Exporter > Image)
+> 3. Nommez-les de manière descriptive (ex: `dashboard-overview.png`)
+> 4. Ajoutez-les au dépôt avec `git add images/`
+> 5. Les images s'afficheront automatiquement dans cette section
+
 ## 🚀 Utilisation
 
 ### Prérequis
@@ -69,12 +116,20 @@ airbnb-power-bi-analysis/
 │
 ├── PROJET_BI.pbix          # Fichier Power BI principal
 ├── Dataset.zip              # Données source compressées
+├── images/                 # Captures d'écran des tableaux de bord
+│   ├── dashboard-overview.png
+│   ├── dashboard-regions.png
+│   ├── dashboard-pricing.png
+│   ├── dashboard-trends.png
+│   ├── dashboard-listings.png
+│   └── dashboard-kpis.png
 └── README.md               # Documentation du projet
 ```
 
 ## 🔍 Insights Clés
 
 Ce dashboard permet de découvrir :
+
 - Les zones les plus rentables pour les investissements Airbnb
 - Les meilleures périodes pour maximiser les revenus
 - Les types de propriétés les plus demandés
